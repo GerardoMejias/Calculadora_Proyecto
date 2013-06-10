@@ -1,0 +1,42 @@
+< THE SYMBOL TABLE >  Calculadora-progra.com  --  emu8086 assembler version: 4.02 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+MSG0                     	00103     	1         	VAR       	(NOSEG)   
+MSG1                     	00118     	1         	VAR       	(NOSEG)   
+MSG2                     	0012D     	1         	VAR       	(NOSEG)   
+MSG3                     	00142     	1         	VAR       	(NOSEG)   
+MSG4                     	00154     	1         	VAR       	(NOSEG)   
+NUMBER1                  	0017A     	2         	VAR       	(NOSEG)   
+NUMBER2                  	0017C     	2         	VAR       	(NOSEG)   
+OPERATOR                 	0017E     	1         	VAR       	(NOSEG)   
+RESULT                   	0017F     	1         	VAR       	(NOSEG)   
+UNIT                     	00180     	1         	VAR       	(NOSEG)   
+TEN                      	00181     	2         	VAR       	(NOSEG)   
+START                    	00183     	-1        	LABEL     	(NOSEG)   
+GET_OPERATOR             	001AD     	-1        	LABEL     	(NOSEG)   
+DO_SUM                   	001D9     	-1        	LABEL     	(NOSEG)   
+DO_RES                   	001E5     	-1        	LABEL     	(NOSEG)   
+DO_MULT                  	001F1     	-1        	LABEL     	(NOSEG)   
+DO_DIV                   	001FD     	-1        	LABEL     	(NOSEG)   
+PRINT_RESULT             	00219     	-1        	LABEL     	(NOSEG)   
+PRINT_BIG                	00256     	-1        	LABEL     	(NOSEG)   
+SCAN_NUM                 	00293     	-1        	NEAR      	(NOSEG)   
+NEXT_DIGIT               	0029F     	-1        	LABEL     	(NOSEG)   
+NOT_CR                   	002B2     	-1        	LABEL     	(NOSEG)   
+BACKSPACE_CHECKED        	002D4     	-1        	LABEL     	(NOSEG)   
+OK_AE_0                  	002DA     	-1        	LABEL     	(NOSEG)   
+REMOVE_NOT_DIGIT         	002DE     	-1        	LABEL     	(NOSEG)   
+OK_DIGIT                 	002F8     	-1        	LABEL     	(NOSEG)   
+SET_MINUS                	00314     	-1        	LABEL     	(NOSEG)   
+TOO_BIG2                 	0031C     	-1        	LABEL     	(NOSEG)   
+TOO_BIG                  	00321     	-1        	LABEL     	(NOSEG)   
+STOP_INPUT               	00345     	-1        	LABEL     	(NOSEG)   
+NOT_MINUS                	0034F     	-1        	LABEL     	(NOSEG)   
+MAKE_MINUS               	00353     	1         	VAR       	(NOSEG)   
+PRINT_TEXT               	00354     	-1        	NEAR      	(NOSEG)   
+PRINT_NUMBER             	00359     	-1        	NEAR      	(NOSEG)   
+===================================================================================================
+[ 09/06/2013  --  23:16:56 ] 
+< END >
+ 
